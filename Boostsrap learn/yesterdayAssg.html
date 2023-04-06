@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p  id="numbA"></p>
+    <p id="demo"></p>
+    <p id="new"></p>
+    
+    
+    <script>
+    const num =[10, 120, 180, 5]
+    let hNumber= ''
+    for(let x of num){
+      hNumber += x + '\n'
+    }
+    document.getElementById('numbA').innerHTML= hNumber
+  
+    const nums =[10, 120, 180, 5]
+    let max= ''
+    for(let i= 0; i< nums.length; i++){
+      if (nums[i] > max){
+      max= nums[i]
+    }
+    }
+    document.getElementById('demo').innerHTML= max
+  
+  
+    const numba =[10, 120, 180, 5];
+    let smallest= numba[0];
+    for(let i= 1; i< numba.length; i++){
+      if (numba[i] < smallest){
+      smallest= numba[i]
+    }
+    }
+    document.getElementById('new').innerHTML= smallest
+  
+  
+  </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string method</title>
+</head>
+<body>
+     <p id="name"></p>
+     <p id="demo"></p>
+     <p id="study"></p>
+     <p id="myself"></p>
+     <p id="life"></p>
+     <p id="money"></p>
+     <p id="goat"></p>
+     <p id="demain"> volleyball is a great game</p>
+     
+     <button onclick="myfunction()"> action</button>
+
+
+    <script>
+     function myfunction(){
+       let freshman= document.getElementById('demain');
+       let m= football.replace('volleyball', 'baseball');
+    document.getElementById('demain').innerHTML= m
+     }     
+
+
+
+        let kelly= "baby     " + "    joke"; 
+        let name =kelly.toUpperCase().trim(); 
+    document.getElementById("name").innerHTML= name;
+
+    
+         let nancy= "Its peggy's birthday today"
+         let demo= nancy.toUpperCase();
+    document.getElementById("demo").innerHTML= demo;
+
+        let study="Biology and Chemistry is simple to pass";
+        let pos= study.indexOf ("simple");
+    document.getElementById("study").innerHTML= pos; 
+       
+         let myself =" sis osas is a good girl facing alot of decisions, help osas, Lord! ";
+         let tri = myself.search ("osas");
+    document.getElementById("myself").innerHTML =tri 
+         
+        let life= "posesion of things" + " get " + 567;
+        let f= life.slice(7);
+    document.getElementById('life').innerHTML = f 
+    
+        let money = "Itsfreemanship";
+        let naira = money.slice(-8, -2);
+    document.getElementById('money').innerHTML = naira    
+        
+    //     let goat ="an animal with a tail";
+    //     let H= goat.slice(-7);
+    // document. getElementById('goat').innerHTML = H    
+
+    //     let goat ="greatness in me";
+    //     let J = goat.substring(7);
+    // document.getElementById('goat').innerHTML= J
+    
+    let goat ="greatness in me";
+    let J = goat.replace();
+    document.getElementById('goat').innerHTML= J
+
+
+
+         
+
+
+
+
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="study"></p>
+    <p id="design"></p>
+    <h4 id="chemistry"></h4>
+    <h5 id="freeN"></h5>
+    <p id="demo"></p>
+
+
+
+    <script>
+       const fruits= ["banana", "orange", "mango "," apples", 'casheuu', 'melon']
+    //    fruits.push(['cashew', ['strawberry', 'pineapple'], 'vege']);
+    //       fruits.sort();
+    //       fruits.pop();
+    //       fruits.shift();
+    //       fruits.reverse();
+        //  fruits.splice( 1, 4);
+            newfruits= fruits.slice(4);
+       document.getElementById('demo').innerHTML= newfruits;
+      
+    
+    //    fruits.splice(1, 0, 'water', 'cherry', 'pineapple');
+    //    newfruits= fruits.slice(0, 2);
+    //    document.getElementById('demo').innerHTML= newfruits;
+       
+
+
+    //    
+    //    document.getElementById('demo').innerHTML= fruits;
+    //    fruits.pop();
+    //    document.getElementById('demo').innerHTML= fruits;
+    //     fruits[0]="bake";
+    //    document.getElementById('demo').innerHTML =fruits;
+    //    fruits.unshift('cashew ', 'tangerlo ');
+    //    document.getElementById('demo').innerHTML =fruits;
+    //    fruits.shift();
+    //    document.getElementById('demo').innerHTML= fruits;
+
+
+
+
+        let name ="sandra onakhinor"
+        let freeName = name.slice (9)
+        console.log(freeName)
+
+        let freeN = name.slice(0, 8)
+        document.getElementById("freeN").innerHTML = freeN;
+
+
+        // document.getElementById("study").innerHTML = name;  
+        document.getElementById("study").innerHTML =" sandy is a great student";
+
+        let design= "string";
+        console.log ('design'. length)
+
+
+        let chemistry ="science of chemicals";
+        document.getElementById('chemistry').innerHTML = chemistry.length
+    </script>
+</body>
+</html>
